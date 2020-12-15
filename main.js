@@ -148,7 +148,7 @@ ProductselectComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Reframe\coca-cola-app\coca-cola\src\main.ts */"zUnb");
+module.exports = __webpack_require__(/*! C:\Reframe\cc\coca-cola\src\main.ts */"zUnb");
 
 
 /***/ }),
@@ -398,7 +398,7 @@ class HomeComponent {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__["MatDialog"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_products_service__WEBPACK_IMPORTED_MODULE_3__["ProductsService"])); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 10, vars: 4, consts: [[1, "content"], ["scrollTracker", "", 1, "outer-wrapper", 3, "scrolled"], [1, "wrapper"], [1, "row"], ["class", "col-xs-4 col-md-3 col-lg-2", 4, "ngFor", "ngForOf", "ngForTrackBy"], [1, "continue-shopping"], [1, "col-xs-10", "col-xs-offset-1"], [1, "continue-shopping-button", "cc-btn__secondary", 3, "routerLink"], [1, "col-xs-4", "col-md-3", "col-lg-2"], [1, "product-thumbnail", 3, "alt"], [1, "product-thumbnail-title"], [1, "product-thumbnail-price"], [1, "product-thumbnail-button", "cc-btn__primary", 3, "click"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 10, vars: 4, consts: [[1, "content"], ["scrollTracker", "", 1, "outer-wrapper", 3, "scrolled"], [1, "wrapper"], [1, "row", "products-wrapper"], ["class", "col-xs-4 col-md-3 col-lg-2", 4, "ngFor", "ngForOf", "ngForTrackBy"], [1, "continue-shopping"], [1, "col-xs-10", "col-xs-offset-1"], [1, "continue-shopping-button", "cc-btn__secondary", 3, "routerLink"], [1, "col-xs-4", "col-md-3", "col-lg-2"], [1, "product-thumbnail", 3, "alt"], [1, "product-thumbnail-title"], [1, "product-thumbnail-price"], [1, "product-thumbnail-button", "cc-btn__primary", 3, "click"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-card", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("scrolled", function HomeComponent_Template_div_scrolled_1_listener($event) { return ctx.updateScrollPos($event); });
@@ -635,20 +635,9 @@ SplashComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
-// This file can be replaced during build by using the `fileReplacements` array.
-// `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
-// The list of file replacements can be found in `angular.json`.
 const environment = {
-    production: false
+    production: true
 };
-/*
- * For easier debugging in development mode, you can import the following file
- * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
- *
- * This import should be commented out in production mode because it will have a negative impact
- * on performance if an error is thrown.
- */
-// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
 
 
 /***/ }),

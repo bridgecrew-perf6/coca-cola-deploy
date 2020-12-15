@@ -743,5 +743,41 @@ mat-form-field {
   background: #fff
 }
 
+/* Browser Fixes */
+
+/* Firefox */
+
+@-moz-document url-prefix() {
+  .products-wrapper {
+     padding-bottom: 110px;
+  }
+}
+
+/* Edge */
+
+@supports (-ms-ime-align:auto) {
+.products-wrapper {
+    padding-bottom: 110px;
+ }
+}
+
+/* IE */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .products-wrapper {
+    padding-bottom: 110px;
+ }
+}
+
+/* Safari */
+
+@media not all and (min-resolution:.001dpcm) {
+  @supports (-webkit-appearance:none) {
+    .products-wrapper {
+      padding-bottom: 110px;
+   }
+  }
+}
+
 
 /*# sourceMappingURL=styles.css.map*/
